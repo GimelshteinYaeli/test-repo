@@ -1,1 +1,9 @@
-
+items:
+  - al_number: 12345
+    ad_group: "Engineering-Team"
+  - al_number: 67890
+    ad_group: "Marketing-Team"
+  - al_number: 54321
+    ad_group: "HR-Team"
+  - al_number: 98765
+    ad_group: "Finance-Team"
