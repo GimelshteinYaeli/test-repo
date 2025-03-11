@@ -5,7 +5,7 @@ ad_group: zag_al_9999_99999_test_acc
 al_number: AL9999_99999999
 kubernetes:
   namespace: test-proj
-  cpu_quota: 2000m
+  cpu_quota: 2000m 
   ram_quota: 6Gi
 deployment:
   artifactory_team: nordlb-test
