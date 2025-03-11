@@ -1,9 +1,23 @@
-
-- al_number: 12345
-  ad_group: "Engineering-Team"
-- al_number: 67890
-  ad_group: "Marketing-Team"
-- al_number: 54321
-  ad_group: "HR-Team"
-- al_number: 98765
-  ad_group: "Finance-Team"
+description: TestProject
+ proj_short: testproj
+ infomail_recipient: xxxx@nordlb.de
+ ad_group: ZAG-AL9999_99999-test-acc
+ al_number: AL9999_99999999
+ kubernetes:
+     namespace: test-proj
+     cpu_quota: 2000m
+     ram_quota: 6Gi
+ deployment:
+     artifactory_team: nordlb-test
+     apps:
+         - name: test-proj-acc
+           repo_url: https://github.com/test/test-config.git
+           value_files:
+               - common.yaml
+ managed_services:
+     postgres_flexible:
+         subnet_cidr: 10.10.10.10/28
+         sku: GP_Standard_D2s_v3
+         databases:
+             - name: test-acc
+               collation: en_US.utf8
