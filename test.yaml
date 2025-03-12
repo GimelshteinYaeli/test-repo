@@ -10,7 +10,7 @@
  deployment:
      artifactory_team: nordlb-test
      apps:
-         - name: test-proj-acc
+         - name: test-proj-acc 
            repo_url: https://github.com/test/test-config.git
            value_files:
                - common.yaml
