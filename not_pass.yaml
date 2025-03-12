@@ -1,7 +1,7 @@
  description: TestProject   
  proj_short: testproj   
  infomail_recipient: xxxx@nordlb.de  
- ad_group: zag_al_9999_99999_test_acc 
+ ad_group: zag_al_9999_99999_test_acc  
  kubernetes:
      namespace: test-proj
      cpu_quota: 2000m
