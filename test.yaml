@@ -8,7 +8,7 @@
      cpu_quota: 2000m
      ram_quota: 6Gi
  deployment:
-     artifactory_team: nordlb-test
+     artifactory_team: nordlb-test 
      apps:
          - name: test-proj-acc 
            repo_url: https://github.com/test/test-config.git
