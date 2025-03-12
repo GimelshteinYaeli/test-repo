@@ -1,7 +1,7 @@
  description: TestProject  
  proj_short: testproj  
  infomail_recipient: xxxx@nordlb.de  
- ad_group: ZAG-AL9999_99999-test-acc 
+ ad_group: ZAG-AL9999_99999-test-acc  
  al_number: AL9999_99999999
  kubernetes:
      namespace: test-proj
