@@ -20,4 +20,4 @@
          sku: GP_Standard_D2s_v3
          databases:
              - name: test-acc
-               collation: en_US.utf8 
+               collation: en_US.utf89
