@@ -1,6 +1,6 @@
  description: TestProject  
  proj_short: testproj   
- infomail_recipient: xxxx@nordlb.de  
+ infomail_recipient: xxxx@nordlb.de   
  ad_group: zag_al_9999_99999_test_acc
  al_number: AL9999_99999999
  kubernetes:
@@ -20,4 +20,4 @@
          sku: GP_Standard_D2s_v3
          databases:
              - name: test-acc
-               collation: en_US.utf8 
+               collation: en_US.utf89
